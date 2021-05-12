@@ -2,12 +2,14 @@
 
 
 ## 更新说明
-    * 2021-05-12
+
+- 2021-05-12
     forked.
     仅供个人使用。
     不定期更新。
 
     添加爱阅书香相关广告过滤
+
 ------------------------------------------------------
 
 这里是一系列好用的翻墙规则，针对 [Shadowrocket](https://liguangming.com/Shadowrocket) 开发，支持广告过滤。规则定义了哪些网站可以直连，哪些必须走代理，规则是一个纯文本文件，无法提供翻墙功能。使用 Python 按照一定的规则和模板定期自动生成，并且使用开源的力量，集众人之力逐渐完善。
@@ -65,9 +67,6 @@
 
 > 最常用的规则是黑名单和白名单。区别在于对待 `未知网站` 的不同处理方式，黑名单默认直连，而白名单则默认使用代理。如果你选择恐惧症爆发，那就两个都下载好了，黑白名单切换使用，天下无忧。
 
-- **你提供了这么多规则，却没有我想要的 o(>.<)o**
-
-> 有任何建议或疑问，[请联系我](#问题反馈)。
 
 - **广告过滤不完全？**
 
@@ -84,9 +83,7 @@
 - 直连：正常的网站
 - 包含广告过滤
 
-规则地址：<https://raw.githubusercontent.com/minyoad/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf>
-
-![二维码](https://minyoad.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_banlist_ad.png?1)
+规则地址：<https://raw.githubusercontent.com/minyoad/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf>
 
 ## 白名单过滤 + 广告
 
@@ -97,5 +94,3 @@
 - 包含广告过滤
 
 规则地址：<https://raw.githubusercontent.com/minyoad/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf>
-
-![二维码](https://minyoad.github.io/Shadowrocket-ADBlock-Rules/figure/sr_top500_whitelist_ad.png?1)
